@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jmaineri\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+      "projectUniqueName": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
       "projectName": "SistemaGestionEntities",
-      "projectPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
-      "packagesPath": "C:\\Users\\jmaineri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\obj\\",
+      "projectPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+      "packagesPath": "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jmaineri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dj Tomi Pirchio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,6 +61,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

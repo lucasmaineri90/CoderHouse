@@ -10,3 +10,15 @@ C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\EntregaCoder\S
 C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\EntregaCoder\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
 C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\EntregaCoder\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
 C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\EntregaCoder\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.deps.json
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfoInputs.cache
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfo.cs
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.csproj.CoreCompileInputs.cache
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.sourcelink.json
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\jmaineri\OneDrive - BIT\Escritorio\Curso\Coder House -C#\Git_Hub\CoderHouse\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll

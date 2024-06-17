@@ -5,11 +5,13 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaGestionUI", "SistemaGestionUI\SistemaGestionUI.csproj", "{A89C34C3-5721-4B37-94D8-16255AD6077E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestionData", "SistemaGestionData\SistemaGestionData.csproj", "{64B604D4-E690-408B-BE79-5BD2CE72C714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaGestionData", "SistemaGestionData\SistemaGestionData.csproj", "{64B604D4-E690-408B-BE79-5BD2CE72C714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestionEntities", "SistemaGestionEntities\SistemaGestionEntities.csproj", "{1AC8028A-DAA3-4F78-9F8D-3BCF756B8773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaGestionEntities", "SistemaGestionEntities\SistemaGestionEntities.csproj", "{1AC8028A-DAA3-4F78-9F8D-3BCF756B8773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestionBussiness", "SistemaGestionBussiness\SistemaGestionBussiness.csproj", "{931A0C35-59BA-4642-8D51-5F630ED22181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaGestionBussiness", "SistemaGestionBussiness\SistemaGestionBussiness.csproj", "{931A0C35-59BA-4642-8D51-5F630ED22181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestionWebApi", "SistemaGestionWebApi\SistemaGestionWebApi.csproj", "{6266C707-D9F4-4B65-93E9-24CA2D5D07AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{931A0C35-59BA-4642-8D51-5F630ED22181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{931A0C35-59BA-4642-8D51-5F630ED22181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{931A0C35-59BA-4642-8D51-5F630ED22181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6266C707-D9F4-4B65-93E9-24CA2D5D07AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6266C707-D9F4-4B65-93E9-24CA2D5D07AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6266C707-D9F4-4B65-93E9-24CA2D5D07AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6266C707-D9F4-4B65-93E9-24CA2D5D07AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

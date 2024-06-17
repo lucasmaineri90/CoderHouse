@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vbqRu1Vzl79EhnPkqtuomOM83ApsxmykzjkS1jlRSpRgKEP7acnvvH0SWRHm15EWSgkbcx/b/sy1V/87ljizZA==",
+  "dgSpecHash": "qxJ5I/zJdROzGbwpN55oIgM/sH4ccB9I5l05kmHwSC4mHHHA1YNxiM6Pcwz8QPMquqqmu91MiDda+X3dZ37JjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+  ],
   "logs": []
 }

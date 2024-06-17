@@ -12,16 +12,17 @@ namespace SistemaGestionUI.SistemaGestionData
     public class ProductoData
     {
 
+        private static string  connectionString = @"Server=. ; Database =C#; Trusted_Connection=True;";
+
+
         public static Producto ObtenerProducto(int IdProducto)
         {
-
-           GestionBaseDeDatos db = new GestionBaseDeDatos();
-
+  
 
             string query = "SELECT Id, Descripciones, Costo, PrecioVenta, Stock, IdUsuario from dbo.Producto WHERE Id=@IdProducto;";
 
             // se usa la conexion que esta asociada a la connectionstring
-            using (SqlConnection conexion = new SqlConnection(db.connectionString))
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
                 // se usa el comando que esta asociada a la query conectada a la conexion
@@ -64,12 +65,9 @@ namespace SistemaGestionUI.SistemaGestionData
             List<Producto> lista1 = new List<Producto>();
 
 
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
-
-
             string query = "SELECT Id, Descripciones, Costo, PrecioVenta, Stock, IdUsuario from dbo.Producto;";
 
-            using (SqlConnection conexion = new SqlConnection(db.connectionString))
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
                 // se usa el comando que esta asociada a la query conectada a la conexion
@@ -100,18 +98,14 @@ namespace SistemaGestionUI.SistemaGestionData
             return lista1;
         }
 
-        public static void CrearProducto(Producto producto)
+        public static bool CrearProducto(Producto producto)
         {
-
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
 
 
             string query = "INSERT INTO producto (Descripciones, Costo, PrecioVenta, Stock, IdUsuario) " +
                 "VALUES (@Descripciones, @Costo, @PrecioVenta, @Stock, @IdUsuario) ;";
 
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(db.connectionString))
+                using (SqlConnection conexion = new SqlConnection(connectionString))
                 {
                     conexion.Open();
                     using (SqlCommand comando = new SqlCommand(query, conexion))
@@ -123,30 +117,21 @@ namespace SistemaGestionUI.SistemaGestionData
                         comando.Parameters.Add(new SqlParameter("Stock", SqlDbType.Int) { Value = producto.Stock });
                         comando.Parameters.Add(new SqlParameter("IdUsuario", SqlDbType.VarChar) { Value = producto.IdUsuario });
 
-                        using (SqlDataReader dr = comando.ExecuteReader())
-                        {
 
-                        }
+                        return comando.ExecuteNonQuery() > 0;
                     }
-                    conexion.Close();
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("No se pudo crear el producto " + ex.Message);
-            }
         }
 
 
-        public static void ModificarProducto(int IdProducto, Producto producto)
+        public static bool ModificarProducto(int IdProducto, Producto producto) 
         {
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
 
 
             string query = "UPDATE producto SET Descripciones=@Descripciones, Costo=@Costo, PrecioVenta=@PrecioVenta, Stock=@Stock, IdUsuario=@IdUsuario " +
                 "WHERE Id=@Id ;";
 
-            using (SqlConnection conexion = new SqlConnection(db.connectionString))
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
                 using (SqlCommand comando = new SqlCommand(query, conexion))
@@ -165,27 +150,20 @@ namespace SistemaGestionUI.SistemaGestionData
                     comando.Parameters.Add(new SqlParameter("Stock", SqlDbType.Int) { Value = producto.Stock });
                     comando.Parameters.Add(new SqlParameter("IdUsuario", SqlDbType.VarChar) { Value = producto.IdUsuario });
 
-                    using (SqlDataReader dr = comando.ExecuteReader())
-                    {
-
-                    }
+                    return comando.ExecuteNonQuery() > 0;
                 }
-                conexion.Close();
             }
         }
 
 
-        public static void EliminarProducto(int IdProducto)
+        public static bool EliminarProducto(int IdProducto)
         {
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
 
 
             string query = "DELETE FROM producto WHERE Id=@IdProducto";
 
             // se usa la conexion que esta asociada a la connectionstring
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(db.connectionString))
+                using (SqlConnection conexion = new SqlConnection(connectionString))
                 {
                     conexion.Open();
                     // se usa el comando que esta asociada a la query conectada a la conexion
@@ -197,22 +175,13 @@ namespace SistemaGestionUI.SistemaGestionData
                         Resultado.Value = IdProducto;
                         comando.Parameters.Add(Resultado);
 
-                        using (SqlDataReader dataReader = comando.ExecuteReader())
-                        {
 
-                        }
+                        return comando.ExecuteNonQuery() > 0;
 
                     }
-                    conexion.Close();
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("No se pudo eliminar el producto " + ex.Message);
-            }
-
-
         }
+
 
     }
 }

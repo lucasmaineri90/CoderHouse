@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {}
+    "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {
+    "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj",
+        "projectUniqueName": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj",
         "projectName": "SistemaGestionBussiness",
-        "projectPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj",
-        "packagesPath": "C:\\Users\\jmaineri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionBussiness\\obj\\",
+        "projectPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj",
+        "packagesPath": "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionBussiness\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jmaineri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dj Tomi Pirchio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj": {
-                "projectPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj"
+              "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj": {
+                "projectPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj"
               },
-              "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
-                "projectPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+              "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+                "projectPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
               }
             }
           }
@@ -65,6 +62,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -74,20 +85,17 @@
         }
       }
     },
-    "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj": {
+    "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj",
+        "projectUniqueName": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj",
         "projectName": "SistemaGestionData",
-        "projectPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj",
-        "packagesPath": "C:\\Users\\jmaineri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionData\\obj\\",
+        "projectPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionData\\SistemaGestionData.csproj",
+        "packagesPath": "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jmaineri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dj Tomi Pirchio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,8 +109,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
-                "projectPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+              "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+                "projectPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
               }
             }
           }
@@ -138,6 +146,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -147,20 +169,17 @@
         }
       }
     },
-    "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+    "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+        "projectUniqueName": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
         "projectName": "SistemaGestionEntities",
-        "projectPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
-        "packagesPath": "C:\\Users\\jmaineri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jmaineri\\OneDrive - BIT\\Escritorio\\Curso\\Coder House -C#\\EntregaCoder\\SistemaGestion\\SistemaGestionEntities\\obj\\",
+        "projectPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+        "packagesPath": "C:\\Users\\Dj Tomi Pirchio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dj Tomi Pirchio\\Desktop\\pre-entrega\\segundaentrega\\CoderHouse\\SistemaGestion\\SistemaGestionEntities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jmaineri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dj Tomi Pirchio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -201,6 +220,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

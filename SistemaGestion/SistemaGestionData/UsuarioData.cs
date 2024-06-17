@@ -11,18 +11,17 @@ namespace SistemaGestionUI.SistemaGestionData
 {
     public class UsuarioData
     {
-
+        private static string connectionString = @"Server=. ; Database =C#; Trusted_Connection=True;";
 
         public static Usuario ObtenerUsuario(int Id)
         {
 
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
 
             string query = "SELECT Id, Nombre, Apellido, NombreUsuario, Contraseña, Mail FROM Usuario WHERE Id=@Id;";
 
             // se usa la conexion que esta asociada a la connectionstring
 
-            using (SqlConnection conexion = new SqlConnection(db.connectionString))
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
                 // se usa el comando que esta asociada a la query conectada a la conexion
@@ -60,11 +59,10 @@ namespace SistemaGestionUI.SistemaGestionData
         {
             List<Usuario> lista1 = new List<Usuario>();
 
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
 
             string query = "SELECT Id, Nombre, Apellido, NombreUsuario, Contraseña, Mail from Usuario";
 
-            using (SqlConnection conexion = new SqlConnection(db.connectionString))
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
                 // se usa el comando que esta asociada a la query conectada a la conexion
@@ -95,18 +93,16 @@ namespace SistemaGestionUI.SistemaGestionData
             return lista1;
         }
 
-        public  static void CrearUsuario(Usuario usuario)
+        public  static bool CrearUsuario(Usuario usuario)
         {
-
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
 
 
             string query = "INSERT INTO Usuario (Nombre, Apellido, NombreUsuario, Contraseña, Mail) " +
                 "VALUES (@Nombre, @Apellido, @NombreUsuario, @Contraseña, @Mail);";
 
-            SqlConnection conexion = new SqlConnection(db.connectionString);
+            SqlConnection conexion = new SqlConnection(connectionString);
 
-            conexion.Open();
+            
             using (SqlCommand comando = new SqlCommand(query, conexion))
             {
                 comando.Parameters.Add(new SqlParameter("Nombre", SqlDbType.VarChar) { Value = usuario.Nombre });
@@ -114,26 +110,21 @@ namespace SistemaGestionUI.SistemaGestionData
                 comando.Parameters.Add(new SqlParameter("NombreUsuario", SqlDbType.VarChar) { Value = usuario.NombreUsuario });
                 comando.Parameters.Add(new SqlParameter("Contraseña", SqlDbType.VarChar) { Value = usuario.Contraseña });
                 comando.Parameters.Add(new SqlParameter("Mail", SqlDbType.VarChar) { Value = usuario.Mail });
+                conexion.Open();
 
-                using (SqlDataReader dr = comando.ExecuteReader())
-                {
-
-                }
+                return comando.ExecuteNonQuery() > 0;
             }
-            conexion.Close();
         }
 
 
-
-        public  static void ModificarUsuario(int Id, Usuario usuario)
+        public  static bool ModificarUsuario(int Id, Usuario usuario)
         {
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
 
 
             string query = "UPDATE Usuario SET Nombre=@Nombre, Apellido=@Apellido, NombreUsuario=@NombreUsuario, Contraseña=@Contraseña, Mail=@Mail " +
                 "WHERE Id=@Id ;";
 
-            using (SqlConnection conexion = new SqlConnection(db.connectionString))
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
 
                 conexion.Open();
@@ -152,26 +143,21 @@ namespace SistemaGestionUI.SistemaGestionData
                     comando.Parameters.Add(new SqlParameter("Contraseña", SqlDbType.VarChar) { Value = usuario.Contraseña });
                     comando.Parameters.Add(new SqlParameter("Mail", SqlDbType.VarChar) { Value = usuario.Mail });
 
-                    using (SqlDataReader dr = comando.ExecuteReader())
-                    {
-
-                    }
+                    return comando.ExecuteNonQuery() > 0;
                 }
-                conexion.Close();
+             
             }
         }
 
 
-        public  static void EliminarUsuario(int Id)
+        public  static bool EliminarUsuario(int Id)
         {
-            GestionBaseDeDatos db = new GestionBaseDeDatos();
-
 
             string query = "DELETE FROM Usuario WHERE Id=@Id";
 
             // se usa la conexion que esta asociada a la connectionstring
 
-            using (SqlConnection conexion = new SqlConnection(db.connectionString))
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
                 // se usa el comando que esta asociada a la query conectada a la conexion
@@ -183,14 +169,12 @@ namespace SistemaGestionUI.SistemaGestionData
                     Resultado.Value = Id;
                     comando.Parameters.Add(Resultado);
 
-                    using (SqlDataReader dataReader = comando.ExecuteReader())
-                    {
-
-                    }
+                    return comando.ExecuteNonQuery() > 0;
+                    
 
                 }
-                conexion.Close();
             }
+
         }
     }
 }
